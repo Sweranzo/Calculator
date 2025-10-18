@@ -33,10 +33,12 @@ body {
 }
 
 .calculator {
-  border-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
   width: 50%;
   border: 1px solid rgba(255, 255, 255, 0.226);
   backdrop-filter: blur(20px);
+  border-right: none;
   
 }
 
@@ -111,6 +113,8 @@ input:focus {
   text-align: justify;
   color: white;
   backdrop-filter: blur(5px);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .despara { 
